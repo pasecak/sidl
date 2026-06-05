@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Osobní portfolio Matyáše Seidla – 17letého studenta IT s vášní pro technologie, programování a moderní webové technologie.">
+    <meta name="keywords" content="Matyáš Seidl, portfolio, student IT, web developer, programování, Czech Republic">
+    <meta name="author" content="Matyáš Seidl">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://matyas-seidl.github.io/portfolio/">
+    <meta property="og:title" content="Matyáš Seidl | Student IT & Web Developer">
+    <meta property="og:description" content="Portfolio 17letého studenta IT. Webové technologie, programování a moderní design.">
+    <meta property="og:image" content="https://matyas-seidl.github.io/portfolio/og-image.jpg">
+    <meta property="og:locale" content="cs_CZ">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://matyas-seidl.github.io/portfolio/">
+    <meta property="twitter:title" content="Matyáš Seidl | Student IT & Web Developer">
+    <meta property="twitter:description" content="Portfolio 17letého studenta IT. Webové technologie, programování a moderní design.">
+    <meta property="twitter:image" content="https://matyas-seidl.github.io/portfolio/og-image.jpg">
+
+    <title>Matyáš Seidl | Student IT & Web Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<base target="_blank">
+</head>
+<body>
+    <!-- Background effects -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">MS</a>
+            <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Otevřít menu">☰</button>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#o-mne">O mně</a></li>
+                    <li><a href="#dovednosti">Dovednosti</a></li>
+                    <li><a href="#projekty">Projekty</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="domu">
+            <div class="hero-content fade-in">
+                <h1>Ahoj, jsem <span>Matyáš Seidl</span></h1>
+                <p class="hero-subtitle">Student IT & budoucí Web Developer</p>
+                <div class="hero-badges">
+                    <span class="badge">🎓 17 let</span>
+                    <span class="badge">💻 IT Student</span>
+                    <span class="badge">🚀 Začátečník</span>
+                </div>
+                <a href="#o-mne" class="cta-button">Prozkoumat portfolio</a>
+            </div>
+            <div class="scroll-indicator">↓</div>
+        </section>
+
+        <!-- About Section -->
+        <section id="o-mne">
+            <div class="section-header fade-in">
+                <h2>O mně</h2>
+                <div class="divider"></div>
+                <p>Kdo jsem a co mě baví</p>
+            </div>
+            <article class="about-grid fade-in">
+                <div class="about-image">
+                    <div class="about-image-placeholder">MS</div>
+                </div>
+                <div class="about-text">
+                    <h3>Student s vášní pro technologie</h3>
+                    <p>
+                        Jmenuji se Matyáš Seidl, je mi 17 let a studuji informační technologie. 
+                        Technologie mě fascinují od dětství – baví mě objevovat, jak fungují 
+                        webové stránky, aplikace a celý digitální svět kolem nás.
+                    </p>
+                    <p>
+                        Momentálně se učím moderní webové technologie a postupně si buduji 
+                        základy v HTML, CSS a JavaScriptu. Mým cílem je stát se profesionálním 
+                        webovým vývojářem a tvořit moderní, uživatelsky přívětivé webové aplikace.
+                    </p>
+                    <p>
+                        Když zrovna nesedím u počítače, rád čtu o nových technologiích, 
+                        sleduji tutoriály a zkouším si nové věci v praxi.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">17</div>
+                            <div class="stat-label">let</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">IT</div>
+                            <div class="stat-label">obor</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">chuť učit se</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="dovednosti">
+            <div class="section-header fade-in">
+                <h2>Dovednosti</h2>
+                <div class="divider"></div>
+                <p>Technologie, které se učím a používám</p>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card fade-in">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Frontend vývoj</h3>
+                    <p>Tvorba moderních a responzivních webových stránek s důrazem na čistý kód a uživatelský zážitek.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Responzivní design</span>
+                    </div>
+                </article>
+                <article class="skill-card fade-in">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Web design</h3>
+                    <p>Navrhování estetických a funkčních uživatelských rozhraní s moderními designovými trendy.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">UI/UX</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Moderní design</span>
+                    </div>
+                </article>
+                <article class="skill-card fade-in">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Verzování a nástroje</h3>
+                    <p>Základy práce s verzovacím systémem Git a dalšími vývojářskými nástroji.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </article>
+                <article class="skill-card fade-in">
+                    <div class="skill-icon">📚</div>
+                    <h3>Neustálé učení</h3>
+                    <p>Rychle se učím nové věci a sleduji aktuální trendy ve světě webových technologií.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Samostudium</span>
+                        <span class="skill-tag">Tutoriály</span>
+                        <span class="skill-tag">Dokumentace</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projekty">
+            <div class="section-header fade-in">
+                <h2>Projekty</h2>
+                <div class="divider"></div>
+                <p>Moje dosavadní práce a experimenty</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card fade-in">
+                    <div class="project-image">📄</div>
+                    <div class="project-content">
+                        <h3>Osobní portfolio</h3>
+                        <p>Moje první portfolio vytvořené pomocí čistého HTML a CSS. Responzivní design, SEO optimalizace a moderní vzhled.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Zobrazit projekt →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card fade-in">
+                    <div class="project-image">🧮</div>
+                    <div class="project-content">
+                        <h3>Webová kalkulačka</h3>
+                        <p>Funkční kalkulačka postavená v JavaScriptu s moderním designem a ovládáním přes klávesnici.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Zobrazit projekt →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card fade-in">
+                    <div class="project-image">🌤️</div>
+                    <div class="project-content">
+                        <h3>Weather App (plánováno)</h3>
+                        <p>Aplikace zobrazující aktuální počasí pomocí veřejného API. V plánu jako další projekt pro procvičení JS.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Vývoj probíhá →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="kontakt">
+            <div class="section-header fade-in">
+                <h2>Kontakt</h2>
+                <div class="divider"></div>
+                <p>Máš zájem o spolupráci nebo mi chceš něco napsat? Ozvi se!</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-cards">
+                    <a href="mailto:matyas.seidl@email.cz" class="contact-card fade-in">
+                        <div class="contact-icon">📧</div>
+                        <h4>Email</h4>
+                        <span>matyas.seidl@email.cz</span>
+                    </a>
+                    <a href="https://github.com/matyas-seidl" target="_blank" rel="noopener noreferrer" class="contact-card fade-in">
+                        <div class="contact-icon">🐙</div>
+                        <h4>GitHub</h4>
+                        <span>@matyas-seidl</span>
+                    </a>
+                    <a href="https://linkedin.com/in/matyas-seidl" target="_blank" rel="noopener noreferrer" class="contact-card fade-in">
+                        <div class="contact-icon">💼</div>
+                        <h4>LinkedIn</h4>
+                        <span>Matyáš Seidl</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">MS</div>
+            <p class="footer-text">Student IT s vášní pro moderní webové technologie.</p>
+            <div class="footer-social">
+                <a href="https://github.com/matyas-seidl" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">🐙</a>
+                <a href="https://linkedin.com/in/matyas-seidl" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">💼</a>
+                <a href="mailto:matyas.seidl@email.cz" class="social-link" aria-label="Email">📧</a>
+            </div>
+            <p class="copyright">
+                © 2026 Matyáš Seidl. Všechna práva vyhrazena.<br>
+                Vytvořeno s ❤️ a čistým HTML & CSS.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
